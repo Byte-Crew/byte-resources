@@ -1,0 +1,81 @@
+---
+name: "hive"
+lastUpdated: "2020-11-09"
+source: "LOCAL"
+authors: []
+domains: []
+chat: []
+modules:
+- name: "ChestAura"
+  enabled: false
+  settings:
+  - name: "Range"
+    value: 4.0
+  - name: "Lock View"
+    value: false
+- name: "Sprint"
+  enabled: true
+  settings: []
+- name: "KillAura"
+  enabled: false
+  settings:
+  - name: "Range"
+    value: 3.942857
+  - name: "Speed"
+    value: 109.46429
+  - name: "RayCast"
+    value: true
+  - name: "Lock View"
+    value: false
+  - name: "Villager"
+    value: false
+- name: "Inventory+"
+  enabled: true
+  settings:
+  - name: "Open Inventory"
+    value: true
+  - name: "Sort Inventory"
+    value: true
+  - name: "Clear Inventory"
+    value: true
+  - name: "Armor"
+    value: true
+  - name: "Delay"
+    value: 100.0
+- name: "Teams"
+  enabled: false
+  settings: []
+- name: "NoFriends"
+  enabled: false
+  settings: []
+- name: "MidClickFriend"
+  enabled: false
+  settings: []
+- name: "ChestStealer"
+  enabled: true
+  settings:
+  - name: "Auto Close"
+    value: true
+  - name: "Name"
+    value: false
+  - name: "Delay"
+    value: 101.428566
+- name: "Velocity"
+  enabled: false
+  settings:
+  - name: "Modes"
+    value: "Push"
+  - name: "Strength"
+    value: 0.22142857
+- name: "InventoryWalk"
+  enabled: true
+  settings: []
+- name: "Fucker"
+  enabled: false
+  settings:
+  - name: ""
+    value: "Beds"
+  - name: "Range"
+    value: 4.0
+  - name: "Through Blocks"
+    value: false
