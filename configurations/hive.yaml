@@ -2,8 +2,8 @@
 name: "hive"
 lastUpdated: "2020-11-09"
 source: "LOCAL"
-authors: []
-domains: []
+authors: ["Paul"]
+domains: ["play.hivemc.com"]
 chat: []
 modules:
 - name: "ChestAura"
