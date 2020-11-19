@@ -1,19 +1,19 @@
 ---
 name: "hive"
-lastUpdated: "2020-11-09"
-source: "LOCAL"
+lastUpdated: "2020-11-18"
+source: "ONLINE"
 authors: ["Paul"]
-domains: ["play.hivemc.com"]
+domain: "play.hivemc.com"
 chat: []
 modules:
-- name: "ChestAura"
-  enabled: false
+- name: "Step"
+  enabled: true
   settings:
-  - name: "Range"
-    value: 4.0
-  - name: "Lock View"
-    value: false
-- name: "Sprint"
+  - name: "Step height"
+    value: 1.0
+  - name: "Mode"
+    value: "AAC 3.2.2"
+- name: "InventoryWalk"
   enabled: true
   settings: []
 - name: "KillAura"
@@ -29,6 +29,13 @@ modules:
     value: false
   - name: "Villager"
     value: false
+- name: "ChestAura"
+  enabled: false
+  settings:
+  - name: "Range"
+    value: 4.0
+  - name: "Lock View"
+    value: false
 - name: "Inventory+"
   enabled: true
   settings:
@@ -42,24 +49,35 @@ modules:
     value: true
   - name: "Delay"
     value: 100.0
+- name: "Fly"
+  enabled: false
+  settings:
+  - name: "Vanilla Speed"
+    value: 1.25
+- name: "Protect"
+  enabled: false
+  settings:
+  - name: "Hide Names"
+    value: false
+  - name: "Change Skins"
+    value: true
+  - name: "Star Wars"
+    value: true
+- name: "MidClickFriend"
+  enabled: false
+  settings: []
 - name: "Teams"
   enabled: false
+  settings: []
+- name: "Speed"
+  enabled: false
+  settings: []
+- name: "Sprint"
+  enabled: true
   settings: []
 - name: "NoFriends"
   enabled: false
   settings: []
-- name: "MidClickFriend"
-  enabled: false
-  settings: []
-- name: "ChestStealer"
-  enabled: true
-  settings:
-  - name: "Auto Close"
-    value: true
-  - name: "Name"
-    value: false
-  - name: "Delay"
-    value: 101.428566
 - name: "Velocity"
   enabled: false
   settings:
@@ -67,9 +85,6 @@ modules:
     value: "Push"
   - name: "Strength"
     value: 0.22142857
-- name: "InventoryWalk"
-  enabled: true
-  settings: []
 - name: "Fucker"
   enabled: false
   settings:
@@ -79,3 +94,12 @@ modules:
     value: 4.0
   - name: "Through Blocks"
     value: false
+- name: "ChestStealer"
+  enabled: false
+  settings:
+  - name: "Auto Close"
+    value: true
+  - name: "Name"
+    value: false
+  - name: "Delay"
+    value: 101.428566
