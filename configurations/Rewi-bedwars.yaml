@@ -3,7 +3,7 @@ name: "Rewi-Bedwars"
 lastUpdated: "2020-11-12"
 source: "ONLINE"
 authors: ["Paul"]
-domains: "mc.rewinside.tv"
+domain: "mc.rewinside.tv"
 chat: []
 modules:
 - name: "Step"
