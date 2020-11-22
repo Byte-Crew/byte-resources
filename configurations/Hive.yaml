@@ -7,7 +7,7 @@ domain: "play.hivemc.com"
 chat: []
 modules:
 - name: "Inventory+"
-  enabled: false
+  enabled: true
   settings:
   - name: "Open Inventory"
     value: true
@@ -20,7 +20,7 @@ modules:
   - name: "Delay"
     value: 90.00017
 - name: "Velocity"
-  enabled: false
+  enabled: true
   settings:
   - name: "Modes"
     value: "Push"
@@ -48,7 +48,7 @@ modules:
   enabled: false
   settings: []
 - name: "Sprint"
-  enabled: false
+  enabled: true
   settings: []
 - name: "Teams"
   enabled: false
@@ -57,7 +57,7 @@ modules:
   enabled: false
   settings: []
 - name: "InventoryWalk"
-  enabled: false
+  enabled: true
   settings:
   - name: "Sprinting"
     value: false
@@ -78,13 +78,13 @@ modules:
   - name: "Star Wars"
     value: true
 - name: "MidClickFriend"
-  enabled: false
+  enabled: true
   settings: []
 - name: "KillAura"
   enabled: false
   settings:
   - name: "Range"
-    value: 4.542858
+    value: 4.4
   - name: "Speed"
     value: 80.00006
   - name: "RayCast"
@@ -99,7 +99,7 @@ modules:
   - name: "Vanilla Speed"
     value: 1.25
 - name: "Step"
-  enabled: false
+  enabled: true
   settings:
   - name: "Step height"
     value: 1.0
