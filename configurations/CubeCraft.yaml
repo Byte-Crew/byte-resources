@@ -1,0 +1,124 @@
+---
+name: "CubeCraft"
+lastUpdated: "2020-11-30"
+source: "ONLINE"
+authors: ["Paul"]
+domain: "play.cubecraft.net:25565"
+chat: []
+modules:
+- name: "Scaffold"
+  enabled: false
+  settings:
+  - name: "Delay"
+    value: 500.0
+  - name: "Speed"
+    value: 1.0571442
+  - name: "Silent"
+    value: true
+  - name: "Sneak"
+    value: true
+  - name: "Sprint"
+    value: false
+  - name: "Jitter"
+    value: false
+- name: "Step"
+  enabled: false
+  settings:
+  - name: "Step height"
+    value: 1.0
+  - name: "Mode"
+    value: "AAC 3.2.2"
+- name: "KillAura"
+  enabled: false
+  settings:
+  - name: "Range"
+    value: 3.8571436
+  - name: "Speed"
+    value: 121.25005
+  - name: "Auto Block"
+    value: false
+  - name: "RayCast"
+    value: true
+  - name: "Lock View"
+    value: false
+  - name: "Villager"
+    value: false
+- name: "Inventory+"
+  enabled: true
+  settings:
+  - name: "Open Inventory"
+    value: true
+  - name: "Sort Inventory"
+    value: true
+  - name: "Clear Inventory"
+    value: true
+  - name: "Armor"
+    value: true
+  - name: "Delay"
+    value: 158.5716
+- name: "Sprint"
+  enabled: true
+  settings: []
+- name: "Fucker"
+  enabled: false
+  settings:
+  - name: ""
+    value: "Beds"
+  - name: "Range"
+    value: 4.0
+  - name: "Through Blocks"
+    value: false
+- name: "Protect"
+  enabled: false
+  settings:
+  - name: "Hide Names"
+    value: false
+  - name: "Change Skins"
+    value: true
+  - name: "Star Wars"
+    value: true
+- name: "Fly"
+  enabled: false
+  settings:
+  - name: "Vanilla Speed"
+    value: 1.25
+- name: "Velocity"
+  enabled: true
+  settings:
+  - name: "Modes"
+    value: "Push"
+  - name: "Strength"
+    value: 0.24285735
+- name: "ChestStealer"
+  enabled: true
+  settings:
+  - name: "Auto Close"
+    value: true
+  - name: "Name"
+    value: false
+  - name: "Delay"
+    value: 121.42874
+- name: "Speed"
+  enabled: false
+  settings: []
+- name: "InventoryWalk"
+  enabled: false
+  settings:
+  - name: "Sprinting"
+    value: false
+- name: "NoFriends"
+  enabled: true
+  settings: []
+- name: "ChestAura"
+  enabled: false
+  settings:
+  - name: "Range"
+    value: 4.0
+  - name: "Lock View"
+    value: false
+- name: "MidClickFriend"
+  enabled: true
+  settings: []
+- name: "Teams"
+  enabled: false
+  settings: []
